@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from './components/Nav'
+import Header from './components/Header'
 import SubNav from './components/SubNav';
 import Main from './components/Main';
 
@@ -7,7 +7,7 @@ const BackgroundTest = () => {
   return (
     <>
       <header id="mainHeader">
-        <Nav />
+        <Header />
       </header>
       <nav id="mainNav">
         <SubNav />
